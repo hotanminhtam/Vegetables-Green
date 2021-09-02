@@ -3657,10 +3657,14 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AccountsController.cs" />
     <Compile Include="Areas\Admin\Controllers\CalenderController.cs" />
-    <Compile Include="Areas\Admin\Controllers\Fruits_PricesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\Dry_FoodController.cs" />
+    <Compile Include="Areas\Admin\Controllers\Fresh_FoodController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
-    <Compile Include="Areas\Admin\Controllers\Vegetable_PricesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PricesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SpiceController.cs" />
+    <Compile Include="Areas\Admin\Controllers\VegetablesController.cs" />
     <Compile Include="Areas\Customer\Controllers\HomeController.cs" />
     <Compile Include="Areas\Customer\CustomerAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
@@ -4110,8 +4114,17 @@
     <Content Include="Assert\assert1\vendor\tinymce\skins\lightgray\fonts\tinymce.ttf" />
     <Content Include="Assert\assert1\vendor\tinymce\skins\lightgray\fonts\tinymce.woff" />
     <Content Include="Areas\Admin\Views\Calender\Calender.cshtml" />
-    <Content Include="Areas\Admin\Views\Vegetable_Prices\Vegetable_Prices.cshtml" />
-    <Content Include="Areas\Admin\Views\Fruits_Prices\Fruits_Prices.cshtml" />
+    <Content Include="Areas\Admin\Views\Accounts\Account_Admin.cshtml" />
+    <Content Include="Areas\Admin\Views\Accounts\Account_Customer.cshtml" />
+    <Content Include="Areas\Admin\Views\Prices\Fruits_Prices.cshtml" />
+    <Content Include="Areas\Admin\Views\Prices\Vegetables_Prices.cshtml" />
+    <Content Include="Areas\Admin\Views\Prices\Meat_Prices.cshtml" />
+    <Content Include="Areas\Admin\Views\Fresh_Food\Meat.cshtml" />
+    <Content Include="Areas\Admin\Views\Fresh_Food\Fish.cshtml" />
+    <Content Include="Areas\Admin\Views\Vegetables\Vegetables.cshtml" />
+    <Content Include="Areas\Admin\Views\Vegetables\Fruits.cshtml" />
+    <Content Include="Areas\Admin\Views\Dry_Food\Dry.cshtml" />
+    <Content Include="Areas\Admin\Views\Spice\Spice.cshtml" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

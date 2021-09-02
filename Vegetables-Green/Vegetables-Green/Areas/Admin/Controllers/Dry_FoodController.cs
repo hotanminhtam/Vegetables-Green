@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace Vegetables_Green.Areas.Admin.Controllers
 {
-    public class Fruits_PricesController : Controller
+    public class Dry_FoodController : Controller
     {
-        // GET: Admin/Fruits_Prices
-        public ActionResult Fruits_Prices()
+        // GET: Admin/Dry_Food/Dry
+        public ActionResult Dry()
         {
             return View();
         }
