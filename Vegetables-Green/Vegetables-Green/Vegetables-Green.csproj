@@ -3670,12 +3670,16 @@
     <Content Include="Assert\assert2\images\about1.jpg" />
     <Content Include="Assert\assert2\images\AjaxLoader.gif" />
     <Content Include="Assert\assert2\images\avatar-1.jpg" />
+    <Content Include="Assert\assert2\images\background-slider.jpg" />
     <Content Include="Assert\assert2\images\banner-blog.jpg" />
     <Content Include="Assert\assert2\images\banner-home3.jpg" />
     <Content Include="Assert\assert2\images\banner\2.jpg" />
     <Content Include="Assert\assert2\images\banner\3.jpg" />
     <Content Include="Assert\assert2\images\banner\6.jpg" />
     <Content Include="Assert\assert2\images\banner\7.jpg" />
+    <Content Include="Assert\assert2\images\banner\background-slider.jpg" />
+    <Content Include="Assert\assert2\images\banner\background-small-1.jpg" />
+    <Content Include="Assert\assert2\images\banner\background-small-2.jpg" />
     <Content Include="Assert\assert2\images\bg-border-center.png" />
     <Content Include="Assert\assert2\images\bg-border-choose.png" />
     <Content Include="Assert\assert2\images\bg-footer.jpg" />
@@ -4501,6 +4505,7 @@
     <Content Include="Assert\assert2\sass\components\_vendor.scss" />
     <Content Include="Assert\assert2\sass\style.scss" />
     <Content Include="Assert\assert2\sass\_bootstrap.scss" />
+    <Content Include="Assert\assert2\images\banner\background-small-3.jpg" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
