@@ -3886,6 +3886,9 @@
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\SpiceController.cs" />
     <Compile Include="Areas\Admin\Controllers\VegetablesController.cs" />
+    <Compile Include="Areas\Customer\Controllers\AboutController.cs" />
+    <Compile Include="Areas\Customer\Controllers\CartController.cs" />
+    <Compile Include="Areas\Customer\Controllers\ContactController.cs" />
     <Compile Include="Areas\Customer\Controllers\HomeController.cs" />
     <Compile Include="Areas\Customer\CustomerAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
@@ -4506,6 +4509,11 @@
     <Content Include="Assert\assert2\sass\style.scss" />
     <Content Include="Assert\assert2\sass\_bootstrap.scss" />
     <Content Include="Assert\assert2\images\banner\background-small-3.jpg" />
+    <Content Include="Areas\Customer\Views\About\About.cshtml" />
+    <Content Include="Areas\Customer\Views\Contact\Contact.cshtml" />
+    <Content Include="Areas\Customer\Views\Cart\ShoppingCart.cshtml" />
+    <Content Include="Areas\Customer\Views\Cart\CheckOut.cshtml" />
+    <Content Include="Areas\Customer\Views\Cart\Order.cshtml" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

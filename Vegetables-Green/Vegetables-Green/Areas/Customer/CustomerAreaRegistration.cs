@@ -17,7 +17,7 @@ namespace Vegetables_Green.Areas.Customer
             context.MapRoute(
                 "Customer_default",
                 "Customer/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                new { action = "Home", id = UrlParameter.Optional }
             );
         }
     }

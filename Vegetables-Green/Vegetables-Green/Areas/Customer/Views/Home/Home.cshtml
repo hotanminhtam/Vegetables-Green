@@ -113,8 +113,8 @@
                         <nav class="mega-menu">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <ul class="nav navbar-nav" id="navbar">
-                                <li class="level1"><a href="#" title="Trang chủ">Trang chủ</a></li>
-                                <li class="level1"><a href="#" title="About us">Thông tin</a></li>
+                                <li class="level1"><a href="@Url.Action("Home", "Home")" title="Trang chủ">Trang chủ</a></li>
+                                <li class="level1"><a href="@Url.Action("About", "About")" title="About us">Thông tin</a></li>
                                 <li class="level1 dropdown">
                                     <a href="#" title="men">Thực phẩm</a>
                                     <div class="sub-menu sub-menu-v2 dropdown-menu">
@@ -176,7 +176,7 @@
                                     <!-- End Dropdow Menu -->
                                 </li>
                                 <li class="level1"><a href="#" title="Lịch sử">Lịch sử</a></li>
-                                <li class="level1"><a href="#" title="Liên hệ">Liên hệ</a></li>
+                                <li class="level1"><a href="@Url.Action("Contact", "Contact")" title="Liên hệ">Liên hệ</a></li>
                             </ul>
                         </nav>
                     </div>
