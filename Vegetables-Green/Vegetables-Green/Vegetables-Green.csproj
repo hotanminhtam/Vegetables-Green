@@ -3680,6 +3680,9 @@
     <Content Include="Assert\assert2\images\banner\background-slider.jpg" />
     <Content Include="Assert\assert2\images\banner\background-small-1.jpg" />
     <Content Include="Assert\assert2\images\banner\background-small-2.jpg" />
+    <Content Include="Assert\assert2\images\banner\banner_logo.jpg" />
+    <Content Include="Assert\assert2\images\banner\logo_banner.jpg" />
+    <Content Include="Assert\assert2\images\banner\logo_mini.jpg" />
     <Content Include="Assert\assert2\images\bg-border-center.png" />
     <Content Include="Assert\assert2\images\bg-border-choose.png" />
     <Content Include="Assert\assert2\images\bg-footer.jpg" />

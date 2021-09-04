@@ -3264,7 +3264,7 @@ ul.tabs.tabs-title li span.count {
   position: absolute;
   width: 100%;
   height: 170px;
-  top: 50%;
+  top: 30%;
   margin-top: -85px;
   border: 4px solid #fff;
   text-align: center;
@@ -3277,7 +3277,7 @@ ul.tabs.tabs-title li span.count {
   width: 100%;
   text-transform: uppercase;
   font-size: 65px;
-  font-family: "Playfair Display";
+  font-family: 'French Script MT';
   line-height: 50px;
   letter-spacing: 15px;
   padding-bottom: 15px;
@@ -3341,7 +3341,7 @@ ul.tabs.tabs-title li span.count {
 .banner-header.banner-lbook3 .text p i {
   font-size: 14px;
   margin: 0 20px;
-  color: #fff;
+  color: black;
 }
 
 .banner-header.banner-lbook3 .text p a {

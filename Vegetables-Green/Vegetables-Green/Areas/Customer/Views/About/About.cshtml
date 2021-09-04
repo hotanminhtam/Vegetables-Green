@@ -64,7 +64,7 @@
                         <p class="icon-menu-mobile"><i class="fa fa-bars"></i></p>
                         <div class="logo">
                             <a href="#" title="Uno">
-                                <img src="#" alt="logo">
+                                <img src="~/Assert/assert2/images/banner/logo_mini.jpg" alt="logo">
                             </a>
                         </div>
                         <div class="logo-mobile">
@@ -91,8 +91,8 @@
                                     </ul>
                                     <p class="total"><span class="left">Tổng cộng:</span> <span class="right">0</span></p>
                                     <div class="bottom">
-                                        <a class="link-v1" href="#" title="viewcart">Xem giỏ hàng</a>
-                                        <a class="link-v1 rt" href="#" title="checkout">Thanh toán</a>
+                                        <a class="link-v1" href="@Url.Action("ShoppingCart", "Cart")" title="Giỏ hàng">Xem giỏ hàng</a>
+                                        <a class="link-v1 rt" href="#" title="Thanh toán">Thanh toán</a>
                                     </div>
                                 </div>
                             </div>
@@ -104,62 +104,16 @@
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <ul class="nav navbar-nav" id="navbar">
                                 <li class="level1"><a href="@Url.Action("Home", "Home")" title="Trang chủ">Trang chủ</a></li>
-                                <li class="level1"><a href="@Url.Action("About", "About")" title="Thông tin">Thông tin</a></li>
+                                <li class="level1"><a href="@Url.Action("About", "About")" title="About us">Thông tin</a></li>
                                 <li class="level1 dropdown">
                                     <a href="#" title="men">Thực phẩm</a>
                                     <div class="sub-menu sub-menu-v2 dropdown-menu">
                                         <ul class="menu-level-1">
-                                            <li class="level2">
-                                                <a href="#">Rau-Củ-Quả</a>
-                                                <ul class="menu-level-2">
-                                                    <li class="level3"><a href="#" title="Seatings">Rau xanh các loại</a></li>
-                                                    <li class="level3"><a href="#" title="Tables">Hành, tỏi</a></li>
-                                                    <li class="level3"><a href="#" title="Accessories">Củ, quả các loại</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="level2">
-                                                <a href="#">Trái cây</a>
-                                                <ul class="menu-level-2">
-                                                    <li class="level3"><a href="#" title="Lighting">Trái cây tươi</a></li>
-                                                    <li class="level3"><a href="#" title="Storage">Trái cây hộp</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="level2">
-                                                <a href="#">Thịt</a>
-                                                <ul class="menu-level-2">
-                                                    <li class="level3"><a href="#" title="Cleaning Tools">Thịt heo</a></li>
-                                                    <li class="level3"><a href="#" title="Waste Bins">Thịt bò</a></li>
-                                                    <li class="level3"><a href="#" title="Pots & Pans">Thịt gà</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="level2">
-                                                <a href="#">Cá và Hải sản</a>
-                                                <ul class="menu-level-2">
-                                                    <li class="level3"><a href="#" title="Tables">Cá, Cá viên</a></li>
-                                                    <li class="level3"><a href="#" title="Accessories">Tôm</a></li>
-                                                    <li class="level3"><a href="#" title="Series">Mực</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="level2">
-                                                <a href="#">Thực phẩm khô</a>
-                                                <ul class="menu-level-2">
-                                                    <li class="level3"><a href="#" title="Thực phẩm khô">Đồ hộp các loại</a></li>
-                                                    <li class="level3"><a href="#" title="Thực phẩm khô">Mì, nui, bún khô</a></li>
-                                                    <li class="level3"><a href="#" title="Thực phẩm khô">Xúc xích, lạp xưởng</a></li>
-                                                    <li class="level3"><a href="#" title="Thực phẩm khô">Đậu, nấm, đồ khô</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="level2">
-                                                <a href="#">Gia vị</a>
-                                                <ul class="menu-level-2">
-                                                    <li class="level3"><a href="#" title="Gia vị">Đường, muối, gia vị</a></li>
-                                                    <li class="level3"><a href="#" title="Gia vị">Dầu ăn, Dầu hào</a></li>
-                                                    <li class="level3"><a href="#" title="Gia vị">Nước mắm, Nước tương</a></li>
-                                                    <li class="level3"><a href="#" title="Gia vị">Hạt nêm, bột ngọt</a></li>
-                                                    <li class="level3"><a href="#" title="Gia vị">Tương ớt, tương đen</a></li>
-                                                    <li class="level3"><a href="#" title="Gia vị">Gia vị nêm sẵn</a></li>
-                                                </ul>
-                                            </li>
+                                            <li class="level2"><a href="#">Rau-Củ-Quả</a></li>
+                                            <li class="level2"><a href="#">Trái cây</a></li>
+                                            <li class="level2"><a href="#">Thịt-Cá</a></li>
+                                            <li class="level2"><a href="#">Đồ khô</a></li>
+                                            <li class="level2"><a href="#">Gia vị</a></li>
                                         </ul>
                                         <!-- End RightSubMenu -->
                                     </div>
@@ -177,10 +131,10 @@
         </header><!-- /header -->
         <div class="container">
             <div class="banner-header banner-lbook3 space-30">
-                <img src="~/Assert/assert2/images/banner-blog.jpg" alt="Banner-header">
+                <img src="~/Assert/assert2/images/banner/banner_logo.jpg" alt="Banner-header">
                 <div class="text">
-                    <h3>Về chúng tôi</h3>
-                    <p><a href="@Url.Action("Home", "Home")" title="Trang chủ">Trang chủ</a><i class="fa fa-caret-right"></i>Blog</p>
+                    <h3 style="color: #33CC99 ">Về chúng tôi</h3>
+                    <p style="color:red"><a href="@Url.Action("Home", "Home")" style="color:red" title="Trang chủ">Trang chủ</a><i class="fa fa-caret-right"></i>Blog</p>
                 </div>
             </div>
         </div>
